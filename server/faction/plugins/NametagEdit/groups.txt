@@ -1,0 +1,8 @@
+// This file declares custom permissions and ties prefixes and suffixes to them.
+// Players who possess these permissions will have the prefix and suffix assigned to the given permission.
+nametag.group.admin prefix = "&7[&cA&f7]&c"
+nametag.group.fonda prefix = "&7[&4F&7]&4"
+nametag.group.guerrier prefix = "&7[&eG&7]&e"
+nametag.group.chevalier prefix = "&7[&dC&7]&d"
+nametag.group.divin prefix = "&7[&6D&7]&6"
+nametag.group.roi prefix = "&7[&aR&7]&a"

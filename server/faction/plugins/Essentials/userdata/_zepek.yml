@@ -1,0 +1,21 @@
+uuid: 5f04daf7-7089-3667-bcdc-7351b785ed38
+timestamps:
+  login: 1562020267821
+  lastteleport: 1562020362683
+ipAddress: 88.171.183.219
+money: '-100.0'
+lastlocation:
+  world: world
+  x: 2618.701239588305
+  y: 107.72557800591784
+  z: -771.4091085544535
+  yaw: -233.14893
+  pitch: 15.16559
+homes:
+  home:
+    world: world
+    x: 2618.701239588305
+    y: 107.72557800591784
+    z: -771.4257136351748
+    yaw: -13.395569
+    pitch: 57.915615

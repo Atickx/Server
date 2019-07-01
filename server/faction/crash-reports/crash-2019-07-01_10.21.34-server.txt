@@ -1,0 +1,51 @@
+---- Minecraft Crash Report ----
+// Hi. I'm Minecraft, and I'm a crashaholic.
+
+Time: 7/1/19 10:21 AM
+Description: Exception in server tick loop
+
+java.lang.NullPointerException: Exception in server tick loop
+	at net.minecraft.world.storage.SaveHandler.func_75754_f(SaveHandler.java:352)
+	at net.minecraft.server.management.ServerConfigurationManager.func_72373_m(ServerConfigurationManager.java:1615)
+	at net.minecraft.server.MinecraftServer.func_70000_a(MinecraftServer.java:1354)
+	at net.minecraft.server.dedicated.DedicatedServer.func_70000_a(DedicatedServer.java:450)
+	at net.minecraft.profiler.PlayerUsageSnooper.func_76471_b(SourceFile:97)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:888)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:693)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Thermos Version: cyberdynecc:Thermos:1.7.10-1614.57
+	Plugins: WorldEdit, VoxelSniper, MassiveCore, Vault, HealthBar, PermissionsEx, HolographicDisplays, NametagEdit, MinewebBridge, WorldGuard, Essentials, CustomEnderChest, EssentialsSpawn, MobStacker, EssentialsChat, Factions, FactionChat, CombatLog
+	Disabled Plugins: 
+	Operating System: Linux (amd64) version 3.10.0-957.12.2.el7.x86_64
+	Java Version: 1.7.0_221, Oracle Corporation
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 3038352944 bytes (2897 MB) / 4075290624 bytes (3886 MB) up to 4075290624 bytes (3886 MB)
+	JVM Flags: 2 total; -Xms4096M -Xmx4096M
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 12, tallocated: 94
+	FML: MCP v9.05 FML v7.10.99.99 Minecraft Forge 10.13.4.1614 10 mods loaded, 10 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJAAAA	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJAAAA	FML{7.10.99.99} [Forge Mod Loader] (Thermos1.jar) 
+	UCHIJAAAA	Forge{10.13.4.1614} [Minecraft Forge] (Thermos1.jar) 
+	UCHIJAAAA	kimagine{0.2} [KImagine] (minecraft.jar) 
+	UCHIJAAAA	chisel{2.9.5.11} [Chisel] (Chisel-2.9.5.11.jar) 
+	UCHIJAAAA	IronChest{6.0.62.742} [Iron Chest] (ironchest-1.7.10-6.0.62.742-universal.jar) 
+	UCHIJAAAA	LunatriusCore{1.1.2.21} [LunatriusCore] (LunatriusCore-1.7.10-1.1.2.21-universal.jar) 
+	UCHIJAAAA	Schematica{1.7.6.131} [Schematica] (Schematica-1.7.10-1.7.6.131-universal.jar) 
+	UCHIJAAAA	StorageDrawers{1.7.10-1.10.9} [Storage Drawers] (StorageDrawers.jar) 
+	UCHIJAAAA	titania{1.0.0} [TitaniaMod] (TitaniaMod-1.0.0.jar) 
+	Chisel: Errors like "[FML]: Unable to lookup ..." are NOT the cause of this crash. You can safely ignore these errors. And update forge while you're at it.
+	Profiler Position: N/A (disabled)
+	Vec3 Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	Player Count: 0 / 150; []
+	Is Modded: Definitely; Server brand changed to 'thermos,cauldron,craftbukkit,mcpc,kcauldron,fml,forge'
+	Type: Dedicated Server (map_server.txt)

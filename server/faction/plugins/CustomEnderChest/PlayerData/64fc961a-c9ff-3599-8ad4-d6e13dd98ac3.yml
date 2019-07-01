@@ -1,0 +1,7 @@
+PlayerLastName: Sp3ctr0_YT
+EnderChestSize: 54
+EnderChestInventory:
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    type: TITANIA_BLOCK_IRIS2
+    amount: 64

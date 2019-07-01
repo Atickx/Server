@@ -1,0 +1,778 @@
+[22:35:59] [main/INFO] [FML/]: Forge Mod Loader version 7.99.4.1614 for Minecraft 1.7.10 loading
+[22:36:00] [main/INFO] [FML/]: Java is OpenJDK 64-Bit Server VM, version 1.7.0_221, running on Linux:amd64:3.10.0-957.12.2.el7.x86_64, installed at /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.221-2.6.18.0.el7_6.x86_64/jre
+[22:36:00] [main/INFO] [STDERR/]: [pw.prok.imagine.ImagineLoadingPlugin:<clinit>:26]: Loading plugin initialized!
+[22:36:00] [main/INFO] [FML/]: Loading tweaker optifine.OptiFineForgeTweaker from OptiFine_1.7.10_HD_U_E7_MOD.jar
+[22:36:00] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:36:00] [main/INFO] [LaunchWrapper/]: Loading tweak class name optifine.OptiFineForgeTweaker
+[22:36:00] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[22:36:00] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:36:00] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:36:00] [main/INFO] [LaunchWrapper/]: Calling tweak class optifine.OptiFineForgeTweaker
+[22:36:00] [main/INFO] [STDOUT/]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: acceptOptions
+[22:36:00] [main/INFO] [STDOUT/]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: Forge server detected, skipping class transformer
+[22:36:00] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:36:01] [main/WARN] [FML/]: Patcher expecting empty class data file for net.minecraft.client.settings.GameSettings, but received non-empty
+[22:36:01] [main/WARN] [FML/]: Patcher expecting empty class data file for net.minecraft.client.settings.GameSettings$Options, but received non-empty
+[22:36:01] [main/WARN] [FML/]: Patcher expecting empty class data file for net.minecraft.client.renderer.OpenGlHelper, but received non-empty
+[22:36:01] [main/WARN] [FML/]: Patcher expecting empty class data file for net.minecraft.client.renderer.EntityRenderer, but received non-empty
+[22:36:01] [main/WARN] [FML/]: Patcher expecting empty class data file for net.minecraft.client.renderer.RenderGlobal, but received non-empty
+[22:36:01] [main/WARN] [FML/]: Patcher expecting empty class data file for net.minecraft.client.renderer.texture.TextureAtlasSprite, but received non-empty
+[22:36:01] [main/WARN] [FML/]: Patcher expecting empty class data file for net.minecraft.client.renderer.Tessellator, but received non-empty
+[22:36:01] [main/WARN] [FML/]: Patcher expecting empty class data file for net.minecraft.client.gui.FontRenderer, but received non-empty
+[22:36:01] [main/WARN] [FML/]: Patcher expecting empty class data file for net.minecraft.client.renderer.RenderBlocks, but received non-empty
+[22:36:01] [main/WARN] [FML/]: Patcher expecting empty class data file for net.minecraft.client.renderer.WorldRenderer, but received non-empty
+[22:36:01] [main/WARN] [FML/]: Patcher expecting empty class data file for net.minecraft.client.model.ModelRenderer, but received non-empty
+[22:36:01] [main/WARN] [FML/]: Patcher expecting empty class data file for net.minecraft.client.renderer.texture.TextureAtlasSprite$1, but received non-empty
+[22:36:01] [main/WARN] [FML/]: Patcher expecting empty class data file for net.minecraft.client.renderer.entity.RenderManager, but received non-empty
+[22:36:01] [main/WARN] [FML/]: Patcher expecting empty class data file for net.minecraft.client.renderer.texture.TextureMap, but received non-empty
+[22:36:01] [main/WARN] [FML/]: Patcher expecting empty class data file for net.minecraft.client.multiplayer.WorldClient, but received non-empty
+[22:36:01] [main/WARN] [FML/]: Patcher expecting empty class data file for net.minecraft.client.renderer.texture.TextureUtil, but received non-empty
+[22:36:01] [main/WARN] [FML/]: Patcher expecting empty class data file for net.minecraft.server.integrated.IntegratedServer, but received non-empty
+[22:36:01] [main/WARN] [FML/]: Patcher expecting empty class data file for net.minecraft.client.renderer.RenderGlobal$1, but received non-empty
+[22:36:01] [main/WARN] [FML/]: Patcher expecting empty class data file for net.minecraft.client.renderer.tileentity.RenderItemFrame, but received non-empty
+[22:36:01] [main/WARN] [FML/]: Patcher expecting empty class data file for net.minecraft.client.settings.GameSettings$SwitchOptions, but received non-empty
+[22:36:01] [main/WARN] [FML/]: Patcher expecting empty class data file for net.minecraft.client.renderer.entity.RendererLivingEntity, but received non-empty
+[22:36:01] [main/WARN] [FML/]: Patcher expecting empty class data file for net.minecraft.client.renderer.EntityRenderer$2, but received non-empty
+[22:36:01] [main/WARN] [FML/]: Patcher expecting empty class data file for net.minecraft.client.renderer.EntityRenderer$3, but received non-empty
+[22:36:01] [main/WARN] [FML/]: Patcher expecting empty class data file for net.minecraft.client.renderer.EntityRenderer$1, but received non-empty
+[22:36:01] [main/WARN] [FML/]: Patcher expecting empty class data file for net.minecraft.client.renderer.texture.TextureMap$1, but received non-empty
+[22:36:01] [main/WARN] [FML/]: Patcher expecting empty class data file for net.minecraft.client.multiplayer.WorldClient$1, but received non-empty
+[22:36:02] [main/WARN] [FML/]: Patcher expecting empty class data file for net.minecraft.server.integrated.IntegratedServer$1, but received non-empty
+[22:36:02] [main/WARN] [FML/]: Patcher expecting empty class data file for net.minecraft.client.renderer.texture.TextureMap$2, but received non-empty
+[22:36:02] [main/WARN] [FML/]: Patcher expecting empty class data file for net.minecraft.client.multiplayer.WorldClient$2, but received non-empty
+[22:36:02] [main/WARN] [FML/]: Patcher expecting empty class data file for net.minecraft.server.integrated.IntegratedServer$2, but received non-empty
+[22:36:02] [main/WARN] [FML/]: Patcher expecting empty class data file for net.minecraft.client.renderer.texture.TextureMap$3, but received non-empty
+[22:36:02] [main/WARN] [FML/]: Patcher expecting empty class data file for net.minecraft.client.multiplayer.WorldClient$3, but received non-empty
+[22:36:02] [main/WARN] [FML/]: Patcher expecting empty class data file for net.minecraft.client.multiplayer.WorldClient$4, but received non-empty
+[22:36:02] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:36:02] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:36:02] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[22:36:03] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[22:36:03] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[22:36:03] [main/INFO] [STDOUT/]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: getLaunchArguments
+[22:36:04] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[22:36:09] [Server thread/INFO] [MinecraftForge/]: Attempting early MinecraftForge initialization
+[22:36:09] [Server thread/INFO] [FML/]: MinecraftForge v10.13.4.1614 Initialized
+[22:36:09] [Server thread/INFO] [FML/]: Replaced 184 ore recipies
+[22:36:09] [Server thread/INFO] [MinecraftForge/]: Completed early MinecraftForge initialization
+[22:36:09] [Server thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[22:36:09] [Server thread/INFO] [FML/]: Searching /root/server/faction/mods for mods
+[22:36:10] [Server thread/INFO] [FML/]: Forge Mod Loader has identified 11 mods to load
+[22:36:10] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, kimagine, chisel, IronChest, LunatriusCore, nexus, neiintegration, Schematica, StorageDrawers] at CLIENT
+[22:36:10] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, kimagine, chisel, IronChest, LunatriusCore, nexus, neiintegration, Schematica, StorageDrawers] at SERVER
+[22:36:10] [Server thread/INFO] [FML/]: Processing ObjectHolder annotations
+[22:36:10] [Server thread/INFO] [FML/]: Found 441 ObjectHolder annotations
+[22:36:10] [Server thread/INFO] [FML/]: Identifying ItemStackHolder annotations
+[22:36:10] [Server thread/INFO] [FML/]: Found 0 ItemStackHolder annotations
+[22:36:10] [Server thread/INFO] [FML/Forge]: Configured a dormant chunk cache size of 0
+[22:36:10] [Server thread/INFO] [Chisel/chisel]: Starting pre-init...
+[22:36:10] [Server thread/INFO] [Chisel/chisel]: Loading blocks...
+[22:36:10] [Server thread/INFO] [Chisel/chisel]: Skipping feature aeCertusQuartz as its required mod appliedenergistics2 was missing.
+[22:36:10] [Server thread/INFO] [Chisel/chisel]: Skipping feature aeSkyStone as its required mod appliedenergistics2 was missing.
+[22:36:10] [Server thread/INFO] [Chisel/chisel]: Skipping feature amber as its required mod Thaumcraft was missing.
+[22:36:10] [Server thread/INFO] [Chisel/chisel]: Skipping feature arcane as its required mod Thaumcraft was missing.
+[22:36:10] [Server thread/INFO] [Chisel/chisel]: Skipping feature bloodRune as its required mod AWWayofTime was missing.
+[22:36:10] [Server thread/INFO] [Chisel/chisel]: Skipping feature bloodBlock as its required mod AWWayofTime was missing.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Skipping feature railcraft as its required mod Railcraft was missing.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Skipping feature rcAbyssalBlock as its parent feature railcraft was disabled.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Skipping feature rcBleachedBone as its parent feature railcraft was disabled.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Skipping feature rcBloodStained as its parent feature railcraft was disabled.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Skipping feature rcFrostBoundBlock as its parent feature railcraft was disabled.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Skipping feature rcInfernalStone as its parent feature railcraft was disabled.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Skipping feature rcQuarriedBlock as its parent feature railcraft was disabled.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Skipping feature rcSandyStone as its parent feature railcraft was disabled.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Skipping feature tallow as its required mod Thaumcraft was missing.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Skipping feature twilghtForest as its required mod TwilightForest was missing.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Skipping feature tfMazestone as its parent feature twilghtForest was disabled.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Skipping feature tfTowerstone as its parent feature twilghtForest was disabled.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Skipping feature tfUnderBrick as its parent feature twilghtForest was disabled.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Skipping feature thaumium as its required mod Thaumcraft was missing.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: 86 Feature's blocks loaded.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Loading Tile Entities...
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Tile Entities loaded.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Loading items...
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Skipping feature aeCertusQuartz as its required mod appliedenergistics2 was missing.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Skipping feature aeSkyStone as its required mod appliedenergistics2 was missing.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Skipping feature amber as its required mod Thaumcraft was missing.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Skipping feature arcane as its required mod Thaumcraft was missing.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Skipping feature bloodRune as its required mod AWWayofTime was missing.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Skipping feature bloodBlock as its required mod AWWayofTime was missing.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Skipping feature railcraft as its required mod Railcraft was missing.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Skipping feature rcAbyssalBlock as its parent feature railcraft was disabled.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Skipping feature rcBleachedBone as its parent feature railcraft was disabled.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Skipping feature rcBloodStained as its parent feature railcraft was disabled.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Skipping feature rcFrostBoundBlock as its parent feature railcraft was disabled.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Skipping feature rcInfernalStone as its parent feature railcraft was disabled.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Skipping feature rcQuarriedBlock as its parent feature railcraft was disabled.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Skipping feature rcSandyStone as its parent feature railcraft was disabled.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Skipping feature tallow as its required mod Thaumcraft was missing.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Skipping feature twilghtForest as its required mod TwilightForest was missing.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Skipping feature tfMazestone as its parent feature twilghtForest was disabled.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Skipping feature tfTowerstone as its parent feature twilghtForest was disabled.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Skipping feature tfUnderBrick as its parent feature twilghtForest was disabled.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Skipping feature thaumium as its required mod Thaumcraft was missing.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: 86 Feature's items loaded.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Pre-init finished.
+[22:36:11] [Server thread/INFO] [FML/]: Applying holder lookups
+[22:36:11] [Server thread/WARN] [FML/]: Unable to lookup chisel:cobblestoneWall for public static team.chisel.block.BlockCarvableWall team.chisel.init.ChiselBlocks.cobblestoneWall. Is there something wrong with the registry?
+[22:36:11] [Server thread/WARN] [FML/]: Unable to lookup chisel:obsidian2 for public static team.chisel.block.BlockCarvable team.chisel.init.ChiselBlocks.obsidian2. Is there something wrong with the registry?
+[22:36:11] [Server thread/WARN] [FML/]: Unable to lookup chisel:voidstonerunic for public static team.chisel.block.BlockCarvable team.chisel.init.ChiselBlocks.voidstonerunic. Is there something wrong with the registry?
+[22:36:11] [Server thread/WARN] [FML/]: Unable to lookup chisel:circuits for public static team.chisel.block.BlockCarvable team.chisel.init.ChiselBlocks.circuits. Is there something wrong with the registry?
+[22:36:11] [Server thread/WARN] [FML/]: Unable to lookup chisel:arcane for public static team.chisel.block.BlockCarvable team.chisel.init.ChiselBlocks.arcane. Is there something wrong with the registry?
+[22:36:11] [Server thread/WARN] [FML/]: Unable to lookup chisel:thaumium for public static team.chisel.block.BlockCarvable team.chisel.init.ChiselBlocks.thaumium. Is there something wrong with the registry?
+[22:36:11] [Server thread/WARN] [FML/]: Unable to lookup chisel:tallow for public static team.chisel.block.BlockCarvable team.chisel.init.ChiselBlocks.tallow. Is there something wrong with the registry?
+[22:36:11] [Server thread/WARN] [FML/]: Unable to lookup chisel:bloodRune for public static team.chisel.block.BlockCarvable team.chisel.init.ChiselBlocks.bloodRune. Is there something wrong with the registry?
+[22:36:11] [Server thread/WARN] [FML/]: Unable to lookup chisel:bloodBrick for public static team.chisel.block.BlockCarvable team.chisel.init.ChiselBlocks.bloodBrick. Is there something wrong with the registry?
+[22:36:11] [Server thread/INFO] [FML/]: Holder lookups applied
+[22:36:11] [Server thread/INFO] [FML/]: Injecting itemstacks
+[22:36:11] [Server thread/INFO] [FML/]: Itemstack injection complete
+[22:36:11] [Server thread/INFO] [Minecraft/]: This server is running Cauldron version 1.7.10-1614.57 (MC: 1.7.10) (Implementing API version 1.7.10-R0.1-SNAPSHOT)
+[22:36:11] [Server thread/INFO] [/]: Server Ping Player Sample Count: 12
+[22:36:11] [Server thread/INFO] [Minecraft/]: Using 4 threads for Netty based IO
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Starting init...
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Loading recipes...
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Skipping feature aeCertusQuartz as its required mod appliedenergistics2 was missing.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Skipping feature aeSkyStone as its required mod appliedenergistics2 was missing.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Skipping feature amber as its required mod Thaumcraft was missing.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Skipping feature arcane as its required mod Thaumcraft was missing.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Skipping feature bloodRune as its required mod AWWayofTime was missing.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Skipping feature bloodBlock as its required mod AWWayofTime was missing.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Skipping feature railcraft as its required mod Railcraft was missing.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Skipping feature rcAbyssalBlock as its parent feature railcraft was disabled.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Skipping feature rcBleachedBone as its parent feature railcraft was disabled.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Skipping feature rcBloodStained as its parent feature railcraft was disabled.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Skipping feature rcFrostBoundBlock as its parent feature railcraft was disabled.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Skipping feature rcInfernalStone as its parent feature railcraft was disabled.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Skipping feature rcQuarriedBlock as its parent feature railcraft was disabled.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Skipping feature rcSandyStone as its parent feature railcraft was disabled.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Skipping feature tallow as its required mod Thaumcraft was missing.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Skipping feature twilghtForest as its required mod TwilightForest was missing.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Skipping feature tfMazestone as its parent feature twilghtForest was disabled.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Skipping feature tfTowerstone as its parent feature twilghtForest was disabled.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Skipping feature tfUnderBrick as its parent feature twilghtForest was disabled.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Skipping feature thaumium as its required mod Thaumcraft was missing.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: 86 Feature's recipes loaded.
+[22:36:11] [Server thread/INFO] [Chisel/chisel]: Init finished.
+[22:36:11] [Server thread/INFO] [FML/]: Injecting itemstacks
+[22:36:11] [Server thread/INFO] [FML/]: Itemstack injection complete
+[22:36:12] [Server thread/INFO] [FML/]: Forge Mod Loader has successfully loaded 11 mods
+[22:36:12] [Server thread/INFO] [FML/]: Injecting existing block and item data into this server instance
+[22:36:12] [LunatriusCore Version Check/INFO] [LunatriusCore/LunatriusCore]: LunatriusCore is up to date!
+[22:36:12] [LunatriusCore Version Check/INFO] [LunatriusCore/LunatriusCore]: Schematica is up to date!
+[22:36:12] [Server thread/INFO] [FML/]: Applying holder lookups
+[22:36:12] [Server thread/WARN] [FML/]: Unable to lookup chisel:cobblestoneWall for public static team.chisel.block.BlockCarvableWall team.chisel.init.ChiselBlocks.cobblestoneWall. Is there something wrong with the registry?
+[22:36:12] [Server thread/WARN] [FML/]: Unable to lookup chisel:obsidian2 for public static team.chisel.block.BlockCarvable team.chisel.init.ChiselBlocks.obsidian2. Is there something wrong with the registry?
+[22:36:12] [Server thread/WARN] [FML/]: Unable to lookup chisel:voidstonerunic for public static team.chisel.block.BlockCarvable team.chisel.init.ChiselBlocks.voidstonerunic. Is there something wrong with the registry?
+[22:36:12] [Server thread/WARN] [FML/]: Unable to lookup chisel:circuits for public static team.chisel.block.BlockCarvable team.chisel.init.ChiselBlocks.circuits. Is there something wrong with the registry?
+[22:36:12] [Server thread/WARN] [FML/]: Unable to lookup chisel:arcane for public static team.chisel.block.BlockCarvable team.chisel.init.ChiselBlocks.arcane. Is there something wrong with the registry?
+[22:36:12] [Server thread/WARN] [FML/]: Unable to lookup chisel:thaumium for public static team.chisel.block.BlockCarvable team.chisel.init.ChiselBlocks.thaumium. Is there something wrong with the registry?
+[22:36:12] [Server thread/WARN] [FML/]: Unable to lookup chisel:tallow for public static team.chisel.block.BlockCarvable team.chisel.init.ChiselBlocks.tallow. Is there something wrong with the registry?
+[22:36:12] [Server thread/WARN] [FML/]: Unable to lookup chisel:bloodRune for public static team.chisel.block.BlockCarvable team.chisel.init.ChiselBlocks.bloodRune. Is there something wrong with the registry?
+[22:36:12] [Server thread/WARN] [FML/]: Unable to lookup chisel:bloodBrick for public static team.chisel.block.BlockCarvable team.chisel.init.ChiselBlocks.bloodBrick. Is there something wrong with the registry?
+[22:36:12] [Server thread/INFO] [FML/]: Holder lookups applied
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_ALUMINUMBLOCK with ID 165.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_ALUMINUM_STAIRS0 with ID 166.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_ALUMINUM_STAIRS1 with ID 167.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_ALUMINUM_STAIRS2 with ID 168.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_ALUMINUM_STAIRS3 with ID 169.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_ALUMINUM_STAIRS4 with ID 176.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_ALUMINUM_STAIRS5 with ID 177.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_ALUMINUM_STAIRS6 with ID 178.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_ALUMINUM_STAIRS7 with ID 179.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_ANDESITE with ID 180.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_ANTIBLOCK with ID 181.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_AUTOCHISEL with ID 182.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_BEACON with ID 183.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_BOOKSHELF with ID 184.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_BRICKCUSTOM with ID 185.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_BRONZEBLOCK with ID 186.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_CARPET_BLOCK with ID 187.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_CARPET with ID 188.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_CLOUD with ID 189.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_COBBLESTONE with ID 190.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_MOSSY_COBBLESTONE with ID 191.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_CONCRETE with ID 192.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_COPPERBLOCK with ID 193.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_DIAMOND_BLOCK with ID 194.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_DIORITE with ID 195.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_DIRT with ID 196.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_EMERALD_BLOCK with ID 197.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_END_STONE with ID 198.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_FACTORYBLOCK with ID 199.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_FACTORYBLOCK2 with ID 200.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_FANTASYBLOCK with ID 201.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_FANTASYBLOCK2 with ID 202.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_FUTURA with ID 203.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_FUTURACIRCUIT with ID 204.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_GLASS with ID 205.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_GLASS2 with ID 206.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_GLASS_PANE with ID 207.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_STAINED_GLASS_FORESTRY with ID 208.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_STAINED_GLASS_WHITE with ID 209.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_STAINED_GLASS_YELLOW with ID 210.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_STAINED_GLASS_LIGHTGRAY with ID 211.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_STAINED_GLASS_BROWN with ID 212.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_STAINED_GLASS_PANE_WHITE with ID 213.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_STAINED_GLASS_PANE_MAGENTA with ID 214.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_STAINED_GLASS_PANE_YELLOW with ID 215.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_STAINED_GLASS_PANE_PINK with ID 216.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_STAINED_GLASS_PANE_LIGHTGRAY with ID 217.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_STAINED_GLASS_PANE_PURPLE with ID 218.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_STAINED_GLASS_PANE_BROWN with ID 219.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_STAINED_GLASS_PANE_RED with ID 220.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_GLOWSTONE with ID 221.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_GOLD2 with ID 222.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_GOLD_BLOCK with ID 223.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_GRANITE with ID 224.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_GRIMSTONE with ID 225.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_HEXPLATING with ID 226.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_HEXLARGEPLATING with ID 227.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_HOLYSTONE with ID 228.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_ICE with ID 229.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_ICE_PILLAR with ID 230.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_ICE_STAIRS0 with ID 231.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_ICE_STAIRS1 with ID 232.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_ICE_STAIRS2 with ID 233.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_ICE_STAIRS3 with ID 234.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_ICE_STAIRS4 with ID 235.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_ICE_STAIRS5 with ID 236.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_ICE_STAIRS6 with ID 237.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_ICE_STAIRS7 with ID 238.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_IRON_BARS with ID 239.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_IRON2 with ID 240.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_IRON_BLOCK with ID 241.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_JACKOLANTERN1 with ID 242.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_JACKOLANTERN2 with ID 243.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_JACKOLANTERN3 with ID 244.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_JACKOLANTERN4 with ID 245.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_JACKOLANTERN5 with ID 246.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_JACKOLANTERN6 with ID 247.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_JACKOLANTERN7 with ID 248.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_JACKOLANTERN8 with ID 249.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_JACKOLANTERN9 with ID 250.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_JACKOLANTERN10 with ID 251.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_JACKOLANTERN11 with ID 252.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_JACKOLANTERN12 with ID 253.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_JACKOLANTERN13 with ID 254.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_JACKOLANTERN14 with ID 255.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_JACKOLANTERN15 with ID 409.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_JACKOLANTERN16 with ID 410.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_LABORATORYBLOCK with ID 411.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_LAPIS_BLOCK with ID 412.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_LAVASTONE with ID 413.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_LEADBLOCK with ID 414.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_LEAVES with ID 415.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_LIMESTONE with ID 416.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_LIMESTONE_SLAB with ID 423.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_LIMESTONE_SLAB_TOP with ID 424.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_LIMESTONE_STAIRS0 with ID 425.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_LIMESTONE_STAIRS1 with ID 426.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_LIMESTONE_STAIRS2 with ID 427.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_LIMESTONE_STAIRS3 with ID 428.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_LIMESTONE_STAIRS4 with ID 429.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_LIMESTONE_STAIRS5 with ID 430.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_LIMESTONE_STAIRS6 with ID 431.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_LIMESTONE_STAIRS7 with ID 432.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_MARBLE with ID 433.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_MARBLE_SLAB with ID 434.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_MARBLE_SLAB_TOP with ID 435.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_MARBLE_STAIRS0 with ID 436.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_MARBLE_STAIRS1 with ID 437.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_MARBLE_STAIRS2 with ID 438.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_MARBLE_STAIRS3 with ID 439.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_MARBLE_STAIRS4 with ID 440.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_MARBLE_STAIRS5 with ID 441.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_MARBLE_STAIRS6 with ID 442.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_MARBLE_STAIRS7 with ID 443.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_MARBLE_PILLAR with ID 444.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_MARBLE_PILLAR_SLAB with ID 445.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_MARBLE_PILLAR_SLAB_TOP with ID 446.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_NATION with ID 447.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_REBEL with ID 448.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_NETHER_BRICK with ID 449.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_NETHERRACK with ID 450.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_OBSIDIAN with ID 451.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_PACKEDICE with ID 452.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_PACKEDICE_PILLAR with ID 453.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_PACKEDICE_STAIRS0 with ID 454.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_PACKEDICE_STAIRS1 with ID 455.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_PACKEDICE_STAIRS2 with ID 456.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_PACKEDICE_STAIRS3 with ID 457.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_PACKEDICE_STAIRS4 with ID 458.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_PACKEDICE_STAIRS5 with ID 459.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_PACKEDICE_STAIRS6 with ID 460.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_PACKEDICE_STAIRS7 with ID 461.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_PAPERWALL with ID 462.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_PAPERWALL_BLOCK with ID 463.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_PRESENT with ID 464.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_PUMPKIN1 with ID 465.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_PUMPKIN2 with ID 466.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_PUMPKIN3 with ID 467.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_PUMPKIN4 with ID 468.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_PUMPKIN5 with ID 469.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_PUMPKIN6 with ID 470.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_PUMPKIN7 with ID 471.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_PUMPKIN8 with ID 472.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_PUMPKIN9 with ID 473.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_PUMPKIN10 with ID 474.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_PUMPKIN11 with ID 475.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_PUMPKIN12 with ID 476.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_PUMPKIN13 with ID 477.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_PUMPKIN14 with ID 478.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_PUMPKIN15 with ID 479.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_PUMPKIN16 with ID 480.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_PURPUR with ID 481.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_REDSTONE_BLOCK with ID 482.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_ROAD_LINE with ID 483.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_SANDSTONE with ID 484.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_SANDSTONE2 with ID 485.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_SANDSTONE_SCRIBBLES with ID 486.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_SILVERBLOCK with ID 487.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_SAND_SNAKESTONE with ID 488.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_STONE_SNAKESTONE with ID 489.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_OBSIDIAN_SNAKESTONE with ID 490.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_STEELBLOCK with ID 491.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_STONEBRICKSMOOTH with ID 492.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_TECHNICAL with ID 493.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_TECHNICAL2 with ID 494.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_TECHNICAL3 with ID 495.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_TECHNICAL4 with ID 496.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_TEMPLEBLOCK with ID 497.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_MOSSY_TEMPLEBLOCK with ID 498.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_TINBLOCK with ID 499.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_TORCH1 with ID 500.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_TORCH2 with ID 501.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_TORCH3 with ID 502.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_TORCH4 with ID 503.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_TORCH5 with ID 504.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_TORCH6 with ID 505.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_TORCH7 with ID 506.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_TORCH8 with ID 507.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_TORCH9 with ID 508.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_TORCH10 with ID 509.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_TYRIAN with ID 510.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_URANIUMBLOCK with ID 511.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_VALENTINES with ID 512.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_VOIDSTONE with ID 513.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_VOIDSTONE2 with ID 514.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_VOIDSTONERUNIC with ID 515.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_VOIDSTONEPILLAR with ID 516.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_VOIDSTONEPILLAR2 with ID 517.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_WARNINGSIGN with ID 518.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_WATERSTONE with ID 519.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_OAK_PLANKS with ID 520.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_SPRUCE_PLANKS with ID 521.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_BIRCH_PLANKS with ID 522.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_JUNGLE_PLANKS with ID 523.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_ACACIA_PLANKS with ID 524.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_DARK_OAK_PLANKS with ID 525.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material CHISEL_WOOLEN_CLAY with ID 526.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material IRONCHEST_BLOCKIRONCHEST with ID 527.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material STORAGEDRAWERS_FULLDRAWERS1 with ID 528.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material STORAGEDRAWERS_FULLDRAWERS2 with ID 529.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material STORAGEDRAWERS_FULLDRAWERS4 with ID 530.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material STORAGEDRAWERS_HALFDRAWERS2 with ID 531.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material STORAGEDRAWERS_HALFDRAWERS4 with ID 532.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material STORAGEDRAWERS_COMPDRAWERS with ID 533.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material STORAGEDRAWERS_CONTROLLER with ID 534.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material STORAGEDRAWERS_CONTROLLERSLAVE with ID 535.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material STORAGEDRAWERS_TRIM with ID 536.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material STORAGEDRAWERS_FRAMINGTABLE with ID 537.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material STORAGEDRAWERS_FULLCUSTOM1 with ID 538.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material STORAGEDRAWERS_FULLCUSTOM2 with ID 539.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material STORAGEDRAWERS_FULLCUSTOM4 with ID 540.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material STORAGEDRAWERS_HALFCUSTOM2 with ID 541.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material STORAGEDRAWERS_HALFCUSTOM4 with ID 542.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material STORAGEDRAWERS_TRIMCUSTOM with ID 543.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material NEXUS_ORE_TITANE with ID 550.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material NEXUS_BLOCK_ERIDIUM with ID 551.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material NEXUS_BLOCK_ORAX with ID 552.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material NEXUS_ORE_ORAX with ID 553.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material NEXUS_ORE_ERIDIUM with ID 554.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge block material NEXUS_BLOCK_TITANE with ID 555.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge item material CHISEL_UPGRADE with ID 4096.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge item material CHISEL_BALLOMOSS with ID 4097.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge item material CHISEL_CHISEL with ID 4098.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge item material CHISEL_DIAMONDCHISEL with ID 4099.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge item material CHISEL_OBSIDIANCHISEL with ID 4100.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge item material CHISEL_CLOUDINABOTTLE with ID 4101.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge item material CHISEL_SMASHINGROCK with ID 4102.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge item material IRONCHEST_IRONGOLDUPGRADE with ID 4103.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge item material IRONCHEST_GOLDDIAMONDUPGRADE with ID 4104.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge item material IRONCHEST_COPPERSILVERUPGRADE with ID 4105.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge item material IRONCHEST_SILVERGOLDUPGRADE with ID 4106.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge item material IRONCHEST_COPPERIRONUPGRADE with ID 4107.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge item material IRONCHEST_DIAMONDCRYSTALUPGRADE with ID 4108.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge item material IRONCHEST_WOODIRONUPGRADE with ID 4109.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge item material IRONCHEST_WOODCOPPERUPGRADE with ID 4110.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge item material IRONCHEST_DIAMONDOBSIDIANUPGRADE with ID 4111.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge item material STORAGEDRAWERS_UPGRADETEMPLATE with ID 4112.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge item material STORAGEDRAWERS_UPGRADE with ID 4113.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge item material STORAGEDRAWERS_UPGRADESTATUS with ID 4114.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge item material STORAGEDRAWERS_UPGRADEVOID with ID 4115.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge item material STORAGEDRAWERS_UPGRADECREATIVE with ID 4116.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge item material STORAGEDRAWERS_UPGRADEREDSTONE with ID 4117.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge item material STORAGEDRAWERS_UPGRADELOCK with ID 4118.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge item material STORAGEDRAWERS_SHROUDKEY with ID 4119.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge item material STORAGEDRAWERS_PERSONALKEY with ID 4120.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge item material STORAGEDRAWERS_TAPE with ID 4121.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge item material NEXUS_BOOTS_ORAX with ID 4143.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge item material NEXUS_CHESTPLATE_APATITE with ID 4144.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge item material NEXUS_ERIDIUM_SWORD with ID 4145.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge item material NEXUS_BOOTS_ERIDIUM with ID 4146.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge item material NEXUS_APATITE_PICKAXE with ID 4147.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge item material NEXUS_ITEM_ERIDIUM with ID 4148.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge item material NEXUS_PANTS_ERIDIUM with ID 4149.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge item material NEXUS_HELMET_APATITE with ID 4150.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge item material NEXUS_PANTS_APATITE with ID 4151.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge item material NEXUS_ORAX_SWORD with ID 4152.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge item material NEXUS_ORAX_PICKAXE with ID 4153.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge item material NEXUS_CHESTPLATE_ORAX with ID 4154.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge item material NEXUS_PANTS_ORAX with ID 4155.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge item material NEXUS_BOOTS_APATITE with ID 4156.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge item material NEXUS_ERIDIUM_PICKAXE with ID 4157.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge item material NEXUS_CHESTPLATE_MINING with ID 4158.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge item material NEXUS_APATITE_SWORD with ID 4159.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge item material NEXUS_ITEM_ORAX with ID 4160.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge item material NEXUS_PANTS_MINING with ID 4161.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge item material NEXUS_CHESTPLATE_ERIDIUM with ID 4162.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge item material NEXUS_MULTI_ERIDIUM with ID 4163.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge item material NEXUS_BOOTS_MINING with ID 4164.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge item material NEXUS_HELMET_ORAX with ID 4165.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge item material NEXUS_HELMET_MINING with ID 4166.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge item material NEXUS_HELMET_ERIDIUM with ID 4167.
+[22:36:12] [Server thread/INFO] [FML/]: Injected new Forge item material NEXUS_ITEM_APATITE with ID 4168.
+[22:36:12] [Server thread/ERROR] [Minecraft/]: Could not load 'plugins/Clearlag.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:196) ~[JavaPluginLoader.class:1.7.10-1614.57]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:133) [SimplePluginManager.class:1.7.10-1614.57]
+	at org.bukkit.craftbukkit.v1_7_R4.CraftServer.loadPlugins(CraftServer.java:343) [CraftServer.class:1.7.10-1614.57]
+	at net.minecraft.world.storage.SaveHandler.initBukkitData(SaveHandler.java:462) [ayq.class:?]
+	at net.minecraft.world.storage.SaveHandler.func_75757_d(SaveHandler.java:138) [ayq.class:?]
+	at net.minecraft.world.World.<init>(World.java:374) [ahb.class:?]
+	at net.minecraft.world.WorldServer.<init>(WorldServer.java:162) [mt.class:?]
+	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:375) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:337) [lt.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:643) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.7.0_221]
+Caused by: java.util.zip.ZipException: zip file is empty
+	at java.util.zip.ZipFile.open(Native Method) ~[?:1.7.0_221]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:221) ~[?:1.7.0_221]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:151) ~[?:1.7.0_221]
+	at java.util.jar.JarFile.<init>(JarFile.java:154) ~[?:1.7.0_221]
+	at java.util.jar.JarFile.<init>(JarFile.java:118) ~[?:1.7.0_221]
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:184) ~[JavaPluginLoader.class:1.7.10-1614.57]
+	... 10 more
+[22:36:12] [Server thread/ERROR] [Minecraft/]: Could not load 'plugins/Lobby.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:188) ~[JavaPluginLoader.class:1.7.10-1614.57]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:133) [SimplePluginManager.class:1.7.10-1614.57]
+	at org.bukkit.craftbukkit.v1_7_R4.CraftServer.loadPlugins(CraftServer.java:343) [CraftServer.class:1.7.10-1614.57]
+	at net.minecraft.world.storage.SaveHandler.initBukkitData(SaveHandler.java:462) [ayq.class:?]
+	at net.minecraft.world.storage.SaveHandler.func_75757_d(SaveHandler.java:138) [ayq.class:?]
+	at net.minecraft.world.World.<init>(World.java:374) [ahb.class:?]
+	at net.minecraft.world.WorldServer.<init>(WorldServer.java:162) [mt.class:?]
+	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:375) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:337) [lt.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:643) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.7.0_221]
+Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
+	... 11 more
+[22:36:13] [Server thread/INFO] [/]: Mapping loaded 11 packages, 7841 classes, 26711 fields, 53884 methods, flags 1ffa
+[22:36:13] [Server thread/INFO] [/]: Loaded inheritance map of 895 classes
+[22:36:13] [Server thread/ERROR] [Minecraft/]: Could not load 'plugins/LaunchPadPlus2-0 (1).jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: Cannot find main class `net.minesiege.lauchpad.Core'
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:191) ~[PluginClassLoader.class:1.7.10-1614.57]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:145) ~[JavaPluginLoader.class:1.7.10-1614.57]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:334) ~[SimplePluginManager.class:1.7.10-1614.57]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:256) [SimplePluginManager.class:1.7.10-1614.57]
+	at org.bukkit.craftbukkit.v1_7_R4.CraftServer.loadPlugins(CraftServer.java:343) [CraftServer.class:1.7.10-1614.57]
+	at net.minecraft.world.storage.SaveHandler.initBukkitData(SaveHandler.java:462) [ayq.class:?]
+	at net.minecraft.world.storage.SaveHandler.func_75757_d(SaveHandler.java:138) [ayq.class:?]
+	at net.minecraft.world.World.<init>(World.java:374) [ahb.class:?]
+	at net.minecraft.world.WorldServer.<init>(WorldServer.java:162) [mt.class:?]
+	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:375) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:337) [lt.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:643) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.7.0_221]
+Caused by: java.lang.ClassNotFoundException: Failed to remap class net.minesiege.lauchpad.Core
+	at org.bukkit.plugin.java.PluginClassLoader.remappedFindClass(PluginClassLoader.java:534) ~[PluginClassLoader.class:1.7.10-1614.57]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:455) ~[PluginClassLoader.class:1.7.10-1614.57]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:211) ~[PluginClassLoader.class:1.7.10-1614.57]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:430) ~[?:1.7.0_221]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:363) ~[?:1.7.0_221]
+	at java.lang.Class.forName0(Native Method) ~[?:1.7.0_221]
+	at java.lang.Class.forName(Class.java:278) ~[?:1.7.0_221]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:189) ~[PluginClassLoader.class:1.7.10-1614.57]
+	... 12 more
+Caused by: java.lang.UnsupportedClassVersionError: net/minesiege/lauchpad/Core : Unsupported major.minor version 52.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:1.7.0_221]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:808) ~[?:1.7.0_221]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142) ~[?:1.7.0_221]
+	at org.bukkit.plugin.java.PluginClassLoader.remappedFindClass(PluginClassLoader.java:522) ~[PluginClassLoader.class:1.7.10-1614.57]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:455) ~[PluginClassLoader.class:1.7.10-1614.57]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:211) ~[PluginClassLoader.class:1.7.10-1614.57]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:430) ~[?:1.7.0_221]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:363) ~[?:1.7.0_221]
+	at java.lang.Class.forName0(Native Method) ~[?:1.7.0_221]
+	at java.lang.Class.forName(Class.java:278) ~[?:1.7.0_221]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:189) ~[PluginClassLoader.class:1.7.10-1614.57]
+	... 12 more
+[22:36:14] [Server thread/ERROR] [Minecraft/]: Could not load 'plugins/GreatKits (2).jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: Cannot find main class `fr.kizeko.greatkits.Main'
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:191) ~[PluginClassLoader.class:1.7.10-1614.57]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:145) ~[JavaPluginLoader.class:1.7.10-1614.57]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:334) ~[SimplePluginManager.class:1.7.10-1614.57]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:256) [SimplePluginManager.class:1.7.10-1614.57]
+	at org.bukkit.craftbukkit.v1_7_R4.CraftServer.loadPlugins(CraftServer.java:343) [CraftServer.class:1.7.10-1614.57]
+	at net.minecraft.world.storage.SaveHandler.initBukkitData(SaveHandler.java:462) [ayq.class:?]
+	at net.minecraft.world.storage.SaveHandler.func_75757_d(SaveHandler.java:138) [ayq.class:?]
+	at net.minecraft.world.World.<init>(World.java:374) [ahb.class:?]
+	at net.minecraft.world.WorldServer.<init>(WorldServer.java:162) [mt.class:?]
+	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:375) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:337) [lt.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:643) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.7.0_221]
+Caused by: java.lang.ClassNotFoundException: Failed to remap class fr.kizeko.greatkits.Main
+	at org.bukkit.plugin.java.PluginClassLoader.remappedFindClass(PluginClassLoader.java:534) ~[PluginClassLoader.class:1.7.10-1614.57]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:455) ~[PluginClassLoader.class:1.7.10-1614.57]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:211) ~[PluginClassLoader.class:1.7.10-1614.57]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:430) ~[?:1.7.0_221]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:363) ~[?:1.7.0_221]
+	at java.lang.Class.forName0(Native Method) ~[?:1.7.0_221]
+	at java.lang.Class.forName(Class.java:278) ~[?:1.7.0_221]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:189) ~[PluginClassLoader.class:1.7.10-1614.57]
+	... 12 more
+Caused by: java.lang.UnsupportedClassVersionError: fr/kizeko/greatkits/Main : Unsupported major.minor version 52.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:1.7.0_221]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:808) ~[?:1.7.0_221]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142) ~[?:1.7.0_221]
+	at org.bukkit.plugin.java.PluginClassLoader.remappedFindClass(PluginClassLoader.java:522) ~[PluginClassLoader.class:1.7.10-1614.57]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:455) ~[PluginClassLoader.class:1.7.10-1614.57]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:211) ~[PluginClassLoader.class:1.7.10-1614.57]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:430) ~[?:1.7.0_221]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:363) ~[?:1.7.0_221]
+	at java.lang.Class.forName0(Native Method) ~[?:1.7.0_221]
+	at java.lang.Class.forName(Class.java:278) ~[?:1.7.0_221]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:189) ~[PluginClassLoader.class:1.7.10-1614.57]
+	... 12 more
+[22:36:15] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit] Loading WorldEdit v5.6.3
+[22:36:15] [Server thread/INFO] [com.thevoxelbox.voxelsniper.VoxelSniper/]: [VoxelSniper] Loading VoxelSniper v5.170.0-SNAPSHOT-jnks317-gitfcb8fe1
+[22:36:15] [Server thread/INFO] [com.massivecraft.massivecore.MassiveCore/]: [MassiveCore] Loading MassiveCore v2.7.1
+[22:36:15] [Server thread/INFO] [net.milkbowl.vault.Vault/]: [Vault] Loading Vault v1.4.1-b436
+[22:36:15] [Server thread/INFO] [com.gmail.filoghost.healthbar.Main/]: [HealthBar] Loading HealthBar v1.8.3
+[22:36:15] [Server thread/INFO] [ru.tehkode.permissions.bukkit.PermissionsEx/]: [PermissionsEx] Loading PermissionsEx v1.22.10
+[22:36:15] [Server thread/WARN] [ru.tehkode.permissions.bukkit.PermissionsEx/]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
+[22:36:15] [Server thread/INFO] [com.gmail.filoghost.holographicdisplays.HolographicDisplays/]: [HolographicDisplays] Loading HolographicDisplays v2.2.6
+[22:36:15] [Server thread/INFO] [ca.wacos.nametagedit.NametagEdit/]: [NametagEdit] Loading NametagEdit v2.4
+[22:36:15] [Server thread/INFO] [fr.vmarchaud.mineweb.bukkit.BukkitCore/]: [MinewebBridge] Loading MinewebBridge v2.0.0
+[22:36:15] [Server thread/INFO] [com.sk89q.worldguard.bukkit.WorldGuardPlugin/]: [WorldGuard] Loading WorldGuard v6.1
+[22:36:15] [Server thread/INFO] [com.earth2me.essentials.Essentials/]: [Essentials] Loading Essentials v2.13.1
+[22:36:15] [Server thread/INFO] [net.craftersland.customenderchest.EnderChest/]: [CustomEnderChest] Loading CustomEnderChest v1.0.2
+[22:36:15] [Server thread/INFO] [com.survivorserver.GlobalMarket.Market/]: [GlobalMarket] Loading GlobalMarket v1.2.2
+[22:36:15] [Server thread/INFO] [com.earth2me.essentials.spawn.EssentialsSpawn/]: [EssentialsSpawn] Loading EssentialsSpawn v2.13.1
+[22:36:15] [Server thread/INFO] [com.kiwifisher.mobstacker.MobStacker/]: [MobStacker] Loading MobStacker v2.0.0
+[22:36:15] [Server thread/INFO] [com.earth2me.essentials.chat.EssentialsChat/]: [EssentialsChat] Loading EssentialsChat v2.13.1
+[22:36:15] [Server thread/INFO] [com.massivecraft.factions.Factions/]: [Factions] Loading Factions v2.7.1
+[22:36:15] [Server thread/INFO] [nz.co.lolnet.james137137.FactionChat.FactionChat/]: [FactionChat] Loading FactionChat v1.10.7
+[22:36:15] [Server thread/INFO] [com.jackproehl.plugins.CombatLog/]: [CombatLog] Loading CombatLog v1.8.11
+[22:36:15] [Server thread/INFO] [com.massivecraft.massivecore.MassiveCore/]: [MassiveCore] Enabling MassiveCore v2.7.1
+[22:36:15] [Server thread/INFO] [/]: [0;36;22m[[0;36;1mMassiveCore 2.7.1[0;36;22m] [0;33;1m=== ENABLE START ===[m
+[22:36:15] [Server thread/INFO] [/]: [0;36;22m[[0;36;1mMassiveCore 2.7.1[0;36;22m] [0;33;1m[0;33;1mLoading Cachefile datas...[m
+[22:36:15] [Server thread/INFO] [/]: [0;36;22m[[0;36;1mMassiveCore 2.7.1[0;36;22m] [0;33;1m[0;33;1mLoading Onlineplayer datas...[m
+[22:36:15] [Server thread/INFO] [/]: [0;36;22m[[0;36;1mMassiveCore 2.7.1[0;36;22m] [0;33;1m[0;33;1mLoading Registry datas...[m
+[22:36:15] [Server thread/INFO] [/]: [0;36;22m[[0;36;1mMassiveCore 2.7.1[0;36;22m] [0;33;1m[0;33;1mSkipping Dbmojangapi datas since offline mode...[m
+[22:36:15] [Server thread/INFO] [/]: [0;36;22m[[0;36;1mMassiveCore 2.7.1[0;36;22m] [0;33;1m[0;33;1mSaving Cachefile...[m
+[22:36:15] [Server thread/INFO] [/]: [0;36;22m[[0;36;1mMassiveCore 2.7.1[0;36;22m] [0;33;1m[0;33;1mSetup of IdUtil took [0;35;1m24[0;33;1mms.[m
+[22:36:15] [Server thread/INFO] [/]: [0;36;22m[[0;36;1mMassiveCore 2.7.1[0;36;22m] [0;33;1m=== ENABLE [0;32;1mCOMPLETE [0;33;1m(Took [0;35;1m395ms[0;33;1m) ===[m
+[22:36:15] [Server thread/INFO] [net.milkbowl.vault.Vault/]: [Vault] Enabling Vault v1.4.1-b436
+[22:36:16] [Server thread/INFO] [net.milkbowl.vault.Vault/]: [Vault] [Economy] Essentials Economy found: Waiting
+[22:36:16] [Server thread/INFO] [net.milkbowl.vault.Vault/]: [Vault] [Permission] PermissionsEx found: Waiting
+[22:36:16] [Server thread/INFO] [net.milkbowl.vault.Vault/]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[22:36:16] [Server thread/INFO] [net.milkbowl.vault.Vault/]: [Vault] [Chat] PermissionsEx found: Waiting
+[22:36:16] [Server thread/INFO] [net.milkbowl.vault.Vault/]: [Vault] Enabled Version 1.4.1-b436
+[22:36:16] [Server thread/INFO] [/]: [0;36;22m[[0;36;1mMassiveCore 2.7.1[0;36;22m] [0;33;1m[0;32;1mActivated [0;33;1mintegration with [0;35;1mVault[m
+[22:36:16] [Server thread/INFO] [net.craftersland.customenderchest.EnderChest/]: [CustomEnderChest] Enabling CustomEnderChest v1.0.2
+[22:36:16] [Server thread/INFO] [net.craftersland.customenderchest.EnderChest/]: [CustomEnderChest] Loading CustomEnderChest v1.0.2...
+[22:36:16] [Server thread/INFO] [net.craftersland.customenderchest.EnderChest/]: [CustomEnderChest] Using FlatFile system for data.
+[22:36:16] [Server thread/INFO] [net.craftersland.customenderchest.EnderChest/]: [CustomEnderChest] CustomEnderChest has been successfully loaded!
+[22:36:16] [Server thread/INFO] [FML/]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@1f26da0a)
+[22:36:16] [Server thread/INFO] [FML/]: Loading dimension 1 (DIM1) (net.minecraft.server.dedicated.DedicatedServer@1f26da0a)
+[22:36:16] [Server thread/INFO] [FML/]: Loading dimension -1 (DIM-1) (net.minecraft.server.dedicated.DedicatedServer@1f26da0a)
+[22:36:17] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit] Enabling WorldEdit v5.6.3
+[22:36:17] [Server thread/INFO] [com.sk89q.wepif.PermissionsResolverManager/]: WEPIF: Using the Bukkit Permissions API.
+[22:36:18] [Server thread/INFO] [com.thevoxelbox.voxelsniper.VoxelSniper/]: [VoxelSniper] Enabling VoxelSniper v5.170.0-SNAPSHOT-jnks317-gitfcb8fe1
+[22:36:18] [Server thread/INFO] [com.thevoxelbox.voxelsniper.VoxelSniper/]: [VoxelSniper] Registered 75 Sniper Brushes with 149 handles.
+[22:36:18] [Server thread/INFO] [com.thevoxelbox.voxelsniper.VoxelSniper/]: [VoxelSniper] Registered Sniper Listener.
+[22:36:18] [Server thread/INFO] [com.gmail.filoghost.healthbar.Main/]: [HealthBar] Enabling HealthBar v1.8.3
+[22:36:18] [Server thread/INFO] [ru.tehkode.permissions.bukkit.PermissionsEx/]: [PermissionsEx] Enabling PermissionsEx v1.22.10
+[22:36:18] [Server thread/INFO] [ru.tehkode.permissions.bukkit.PermissionsEx/]: [PermissionsEx] Initializing file backend
+[22:36:18] [Server thread/ERROR] [ru.tehkode.permissions.bukkit.PermissionsEx/]: [PermissionsEx] 
+========== UNABLE TO LOAD PERMISSIONS BACKEND =========
+Your configuration must be fixed before PEX will enable
+Details: Error loading permissions file!
+=======================================================
+ru.tehkode.permissions.exceptions.PermissionBackendException: Error loading permissions file!
+	at ru.tehkode.permissions.backends.file.FileBackend.reload(FileBackend.java:321) ~[PermissionsEx-1.22.10.jar:?]
+	at ru.tehkode.permissions.backends.file.FileBackend.<init>(FileBackend.java:120) ~[PermissionsEx-1.22.10.jar:?]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.7.0_221]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57) ~[?:1.7.0_221]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.7.0_221]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526) ~[?:1.7.0_221]
+	at ru.tehkode.permissions.backends.PermissionBackend.getBackend(PermissionBackend.java:392) ~[PermissionsEx-1.22.10.jar:?]
+	at ru.tehkode.permissions.backends.PermissionBackend.getBackend(PermissionBackend.java:367) ~[PermissionsEx-1.22.10.jar:?]
+	at ru.tehkode.permissions.PermissionManager.createBackend(PermissionManager.java:624) ~[PermissionsEx-1.22.10.jar:?]
+	at ru.tehkode.permissions.PermissionManager.setBackend(PermissionManager.java:606) ~[PermissionsEx-1.22.10.jar:?]
+	at ru.tehkode.permissions.PermissionManager.initBackend(PermissionManager.java:693) ~[PermissionsEx-1.22.10.jar:?]
+	at ru.tehkode.permissions.PermissionManager.<init>(PermissionManager.java:67) ~[PermissionsEx-1.22.10.jar:?]
+	at ru.tehkode.permissions.bukkit.PermissionsEx.onEnable(PermissionsEx.java:178) [PermissionsEx-1.22.10.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:316) [JavaPlugin.class:1.7.10-1614.57]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:368) [JavaPluginLoader.class:1.7.10-1614.57]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:410) [SimplePluginManager.class:1.7.10-1614.57]
+	at org.bukkit.craftbukkit.v1_7_R4.CraftServer.loadPlugin(CraftServer.java:438) [CraftServer.class:1.7.10-1614.57]
+	at org.bukkit.craftbukkit.v1_7_R4.CraftServer.enablePlugins(CraftServer.java:372) [CraftServer.class:1.7.10-1614.57]
+	at net.minecraft.server.MinecraftServer.func_71243_i(MinecraftServer.java:519) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.func_71222_d(MinecraftServer.java:493) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:453) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:337) [lt.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:643) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.7.0_221]
+Caused by: org.bukkit.configuration.InvalidConfigurationException: expected '<document start>', but found BlockMappingStart
+ in "<string>", line 40, column 1:
+    schema-version: 1
+    ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:57) ~[YamlConfiguration.class:1.7.10-1614.57]
+	at ru.tehkode.permissions.backends.file.FileConfig.loadFromString(FileConfig.java:68) ~[PermissionsEx-1.22.10.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:226) ~[FileConfiguration.class:1.7.10-1614.57]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:169) ~[FileConfiguration.class:1.7.10-1614.57]
+	at ru.tehkode.permissions.backends.file.FileConfig.load(FileConfig.java:38) ~[PermissionsEx-1.22.10.jar:?]
+	at ru.tehkode.permissions.backends.file.FileBackend.reload(FileBackend.java:309) ~[PermissionsEx-1.22.10.jar:?]
+	... 23 more
+Caused by: org.yaml.snakeyaml.parser.ParserException: null; expected '<document start>', but found BlockMappingStart
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseDocumentStart.produce(ParserImpl.java:231) ~[ParserImpl$ParseDocumentStart.class:?]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161) ~[ParserImpl.class:?]
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:146) ~[ParserImpl.class:?]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:109) ~[Composer.class:?]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:121) ~[BaseConstructor.class:?]
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:480) ~[Yaml.class:?]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:399) ~[Yaml.class:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:55) ~[YamlConfiguration.class:1.7.10-1614.57]
+	at ru.tehkode.permissions.backends.file.FileConfig.loadFromString(FileConfig.java:68) ~[PermissionsEx-1.22.10.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:226) ~[FileConfiguration.class:1.7.10-1614.57]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:169) ~[FileConfiguration.class:1.7.10-1614.57]
+	at ru.tehkode.permissions.backends.file.FileConfig.load(FileConfig.java:38) ~[PermissionsEx-1.22.10.jar:?]
+	at ru.tehkode.permissions.backends.file.FileBackend.reload(FileBackend.java:309) ~[PermissionsEx-1.22.10.jar:?]
+	... 23 more
+[22:36:18] [Server thread/INFO] [ru.tehkode.permissions.bukkit.PermissionsEx/]: [PermissionsEx] Disabling PermissionsEx v1.22.10
+[22:36:18] [Server thread/INFO] [com.sk89q.wepif.PermissionsResolverManager/]: WEPIF: Using the Bukkit Permissions API.
+[22:36:18] [Server thread/INFO] [com.sk89q.wepif.PermissionsResolverManager/]: WEPIF: Using the Bukkit Permissions API.
+[22:36:18] [Server thread/INFO] [Minecraft/]: [Vault][Permission] PermissionsEx hooked.
+[22:36:18] [Server thread/INFO] [com.gmail.filoghost.holographicdisplays.HolographicDisplays/]: [HolographicDisplays] Enabling HolographicDisplays v2.2.6
+[22:36:18] [Server thread/INFO] [com.gmail.filoghost.holographicdisplays.HolographicDisplays/]: [HolographicDisplays] Trying to enable Cauldron/MCPC+ support...
+[22:36:18] [Server thread/INFO] [com.gmail.filoghost.holographicdisplays.HolographicDisplays/]: [HolographicDisplays] Successfully added support for Cauldron/MCPC+!
+[22:36:19] [Server thread/INFO] [ca.wacos.nametagedit.NametagEdit/]: [NametagEdit] Enabling NametagEdit v2.4
+[22:36:19] [Server thread/INFO] [/]: An update is available: NametagEdit v2.4, a release for CB 1.7.9-R0.1 available at http://servermods.cursecdn.com/files/790/383/NametagEdit.jar
+[22:36:19] [Server thread/INFO] [/]: Update by executing: /ne update
+[22:36:19] [Server thread/INFO] [fr.vmarchaud.mineweb.bukkit.BukkitCore/]: [MinewebBridge] Enabling MinewebBridge v2.0.0
+[22:36:19] [Server thread/WARN] [Mineweb/]: Cant find a config file, creating it
+[22:36:19] [Thread-14/INFO] [/]: HTTP server start failed! (null)[m
+[22:36:19] [Server thread/INFO] [com.sk89q.worldguard.bukkit.WorldGuardPlugin/]: [WorldGuard] Enabling WorldGuard v6.1
+[22:36:20] [Server thread/INFO] [com.sk89q.worldguard.bukkit.WorldConfiguration/]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[22:36:20] [Server thread/INFO] [com.sk89q.worldguard.bukkit.WorldConfiguration/]: [WorldGuard] (world) Lighters are PERMITTED.
+[22:36:20] [Server thread/INFO] [com.sk89q.worldguard.bukkit.WorldConfiguration/]: [WorldGuard] (world) Lava fire is blocked.
+[22:36:20] [Server thread/INFO] [com.sk89q.worldguard.bukkit.WorldConfiguration/]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[22:36:20] [Server thread/INFO] [com.sk89q.worldguard.bukkit.WorldConfiguration/]: [WorldGuard] Loaded configuration for world 'world'
+[22:36:20] [Server thread/INFO] [com.sk89q.worldguard.bukkit.WorldConfiguration/]: [WorldGuard] (DIM1) TNT ignition is PERMITTED.
+[22:36:20] [Server thread/INFO] [com.sk89q.worldguard.bukkit.WorldConfiguration/]: [WorldGuard] (DIM1) Lighters are PERMITTED.
+[22:36:20] [Server thread/INFO] [com.sk89q.worldguard.bukkit.WorldConfiguration/]: [WorldGuard] (DIM1) Lava fire is blocked.
+[22:36:20] [Server thread/INFO] [com.sk89q.worldguard.bukkit.WorldConfiguration/]: [WorldGuard] (DIM1) Fire spread is UNRESTRICTED.
+[22:36:20] [Server thread/INFO] [com.sk89q.worldguard.bukkit.WorldConfiguration/]: [WorldGuard] Loaded configuration for world 'DIM1'
+[22:36:20] [Server thread/INFO] [com.sk89q.worldguard.bukkit.WorldConfiguration/]: [WorldGuard] (DIM-1) TNT ignition is PERMITTED.
+[22:36:20] [Server thread/INFO] [com.sk89q.worldguard.bukkit.WorldConfiguration/]: [WorldGuard] (DIM-1) Lighters are PERMITTED.
+[22:36:20] [Server thread/INFO] [com.sk89q.worldguard.bukkit.WorldConfiguration/]: [WorldGuard] (DIM-1) Lava fire is blocked.
+[22:36:20] [Server thread/INFO] [com.sk89q.worldguard.bukkit.WorldConfiguration/]: [WorldGuard] (DIM-1) Fire spread is UNRESTRICTED.
+[22:36:20] [Server thread/INFO] [com.sk89q.worldguard.bukkit.WorldConfiguration/]: [WorldGuard] Loaded configuration for world 'DIM-1'
+[22:36:20] [Server thread/INFO] [com.sk89q.worldguard.bukkit.WorldGuardPlugin/]: [WorldGuard] Loading region data...
+[22:36:21] [Server thread/INFO] [com.earth2me.essentials.Essentials/]: [Essentials] Enabling Essentials v2.13.1
+[22:36:21] [Server thread/INFO] [Essentials/]: Bukkit version format changed. Version not checked.
+[22:36:21] [Server thread/INFO] [Essentials/]: 1.7.10-1614.57 (MC: 1.7.10)
+[22:36:21] [Server thread/INFO] [Essentials/]: 1.7.10-R0.1-SNAPSHOT
+[22:36:21] [Server thread/INFO] [Minecraft/]: [Vault][Economy] Essentials Economy hooked.
+[22:36:21] [Server thread/INFO] [Essentials/]: Essentials: Using config file enhanced permissions.
+[22:36:21] [Server thread/INFO] [Essentials/]: Permissions listed in as player-commands will be given to all users.
+[22:36:21] [Server thread/INFO] [com.survivorserver.GlobalMarket.Market/]: [GlobalMarket] Enabling GlobalMarket v1.2.2
+[22:36:21] [Server thread/INFO] [com.earth2me.essentials.spawn.EssentialsSpawn/]: [EssentialsSpawn] Enabling EssentialsSpawn v2.13.1
+[22:36:21] [Server thread/INFO] [com.kiwifisher.mobstacker.MobStacker/]: [MobStacker] Enabling MobStacker v2.0.0
+[22:36:21] [Server thread/INFO] [com.kiwifisher.mobstacker.MobStacker/]: [MobStacker] MobStacker is starting
+[22:36:21] [Server thread/INFO] [com.kiwifisher.mobstacker.MobStacker/]: [MobStacker] ------------------------------------------------------------------
+[22:36:21] [Server thread/INFO] [com.kiwifisher.mobstacker.MobStacker/]: [MobStacker] WARNING - MobStacker no longer receives updates or support
+[22:36:21] [Server thread/INFO] [com.kiwifisher.mobstacker.MobStacker/]: [MobStacker] Please upgrade to MobStacker2 if you wish to use a better plugin
+[22:36:21] [Server thread/INFO] [com.kiwifisher.mobstacker.MobStacker/]: [MobStacker] ------------------------------------------------------------------
+[22:36:21] [Server thread/INFO] [com.kiwifisher.mobstacker.MobStacker/]: [MobStacker] Connected to metrics
+[22:36:21] [Server thread/INFO] [com.kiwifisher.mobstacker.MobStacker/]: [MobStacker] Didn't hook in to WorldGuard
+[22:36:21] [Server thread/ERROR] [Minecraft/]: Error occurred while enabling MobStacker v2.0.0 (Is it up to date?)
+java.lang.NoSuchMethodError: org.bukkit.entity.Entity.getCustomName()Ljava/lang/String;
+	at com.kiwifisher.mobstacker.utils.StackUtils.reviveStacks(StackUtils.java:546) ~[?:?]
+	at com.kiwifisher.mobstacker.MobStacker.onEnable(MobStacker.java:99) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:316) ~[JavaPlugin.class:1.7.10-1614.57]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:368) [JavaPluginLoader.class:1.7.10-1614.57]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:410) [SimplePluginManager.class:1.7.10-1614.57]
+	at org.bukkit.craftbukkit.v1_7_R4.CraftServer.loadPlugin(CraftServer.java:438) [CraftServer.class:1.7.10-1614.57]
+	at org.bukkit.craftbukkit.v1_7_R4.CraftServer.enablePlugins(CraftServer.java:372) [CraftServer.class:1.7.10-1614.57]
+	at net.minecraft.server.MinecraftServer.func_71243_i(MinecraftServer.java:519) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.func_71222_d(MinecraftServer.java:493) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:453) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:337) [lt.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:643) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.7.0_221]
+[22:36:21] [Server thread/INFO] [com.earth2me.essentials.chat.EssentialsChat/]: [EssentialsChat] Enabling EssentialsChat v2.13.1
+[22:36:21] [Server thread/INFO] [com.massivecraft.factions.Factions/]: [Factions] Enabling Factions v2.7.1
+[22:36:21] [Server thread/INFO] [/]: [0;36;22m[[0;36;1mFactions 2.7.1[0;36;22m] [0;33;1m=== ENABLE START ===[m
+[22:36:22] [Server thread/INFO] [/]: [0;36;22m[[0;36;1mFactions 2.7.1[0;36;22m] [0;33;1m=== ENABLE [0;32;1mCOMPLETE [0;33;1m(Took [0;35;1m451ms[0;33;1m) ===[m
+[22:36:22] [Server thread/INFO] [nz.co.lolnet.james137137.FactionChat.FactionChat/]: [FactionChat] Enabling FactionChat v1.10.7
+[22:36:22] [Server thread/INFO] [Minecraft/]: FactionChat: Version: 1.10.7 Enabling
+[22:36:22] [Server thread/INFO] [Minecraft/]: [FactionChat] loading Factions API for factions version 2.7.1
+[22:36:22] [Server thread/INFO] [Minecraft/]: [FactionChat] using Factions API of: nz.co.lolnet.james137137.FactionChat.FactionsAPI.FactionsAPI_2_7_0
+[22:36:22] [Server thread/INFO] [Minecraft/]: FactionChat: Version: 1.10.7 Enabled.
+[22:36:22] [Server thread/INFO] [com.jackproehl.plugins.CombatLog/]: [CombatLog] Enabling CombatLog v1.8.11
+[22:36:22] [Server thread/INFO] [Minecraft/]: [CombatLog] Loading messages.properties.
+[22:36:22] [Server thread/INFO] [Minecraft/]: [CombatLog] Loading config.yml.
+[22:36:22] [ServiceThread/INFO] [Minecraft/]: UpdateCheck: Unable to connect to BukkitDev!
+[22:36:22] [Server thread/INFO] [/]: [0;31;1m[CombatLog] DisguiseCraft plugin not found! Disguise removal will not work.[m
+[22:36:22] [Server thread/INFO] [Minecraft/]: [CombatLog] CombatLog v1.8.11 Enabled.
+[22:36:22] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
+[22:36:22] [Server thread/INFO] [/]: Hey, you don't have a server icon! Try out one of Thermos' Icon Generators at https://github.com/CyberdyneCC/ThermosIconGenerators !
+[22:36:22] [Server thread/INFO] [/]: [0;36;22m[[0;36;1mMassiveCore 2.7.1[0;36;22m] [0;33;1m[0;33;1mLoading Cachefile datas...[m
+[22:36:22] [Server thread/INFO] [/]: [0;36;22m[[0;36;1mMassiveCore 2.7.1[0;36;22m] [0;33;1m[0;33;1mLoading Onlineplayer datas...[m
+[22:36:22] [Server thread/INFO] [/]: [0;36;22m[[0;36;1mMassiveCore 2.7.1[0;36;22m] [0;33;1m[0;33;1mLoading Registry datas...[m
+[22:36:22] [Server thread/INFO] [/]: [0;36;22m[[0;36;1mMassiveCore 2.7.1[0;36;22m] [0;33;1m[0;33;1mSkipping Dbmojangapi datas since offline mode...[m
+[22:36:22] [Server thread/INFO] [/]: [0;36;22m[[0;36;1mMassiveCore 2.7.1[0;36;22m] [0;33;1m[0;33;1mSaving Cachefile...[m
+[22:36:22] [Server thread/INFO] [/]: [0;36;22m[[0;36;1mMassiveCore 2.7.1[0;36;22m] [0;33;1m[0;33;1mUpgrading from player name to player uuid...[m
+[22:36:22] [Server thread/INFO] [/]: [0;36;22m[[0;36;1mMassiveCore 2.7.1[0;36;22m] [0;33;1m[0;33;1mPre update [0;35;1mfactions_mplayer[0;33;1m.[m
+[22:36:22] [Server thread/INFO] [/]: [0;36;22m[[0;36;1mMassiveCore 2.7.1[0;36;22m] [0;33;1m[0;33;1mPost update [0;35;1mfactions_mplayer[0;33;1m. Took [0;35;1m1ms[0;33;1m. [0;35;1m0/2 [0;33;1mchanged.[m
+[22:36:22] [Server thread/INFO] [/]: [0;36;22m[[0;36;1mMassiveCore 2.7.1[0;36;22m] [0;33;1m[0;32;1m ... done![m
+[22:36:22] [Server thread/INFO] [/]: [0;36;22m[[0;36;1mMassiveCore 2.7.1[0;36;22m] [0;33;1m[0;33;1m(database saving will now commence which might lock the server for a while)[m
+[22:36:22] [Server thread/INFO] [com.gmail.filoghost.holographicdisplays.HolographicDisplays/]: [HolographicDisplays] Found a new version available: v2.3.2
+[22:36:22] [Server thread/INFO] [com.gmail.filoghost.holographicdisplays.HolographicDisplays/]: [HolographicDisplays] Download it on Bukkit Dev:
+[22:36:22] [Server thread/INFO] [com.gmail.filoghost.holographicdisplays.HolographicDisplays/]: [HolographicDisplays] dev.bukkit.org/bukkit-plugins/holographic-displays
+[22:36:22] [Server thread/ERROR] [ca.wacos.nametagedit.NametagEdit/]: [NametagEdit] Plugin NametagEdit v2.4 has failed to register events for class ca.wacos.nametagedit.NametagHookPEX because ru/tehkode/permissions/events/PermissionEntityEvent does not exist.
+[22:36:22] [Server thread/INFO] [ca.wacos.nametagedit.NametagEdit/]: [NametagEdit] Hooked into PermissionsEx!
+[22:36:23] [Craft Scheduler Thread - 14/INFO] [net.milkbowl.vault.Vault/]: [Vault] Checking for Updates:
+[22:36:23] [Craft Scheduler Thread - 14/WARN] [net.milkbowl.vault.Vault/]: [Vault] Stable Version: 1.7.2 is out! You are still running version: 1.4.1
+[22:36:23] [Craft Scheduler Thread - 14/WARN] [net.milkbowl.vault.Vault/]: [Vault] Update at: http://dev.bukkit.org/server-mods/vault
+[22:36:23] [Thermos version retriever/WARN] [Thermos: TVersionRetriever/]: Error occured during retriving version
+java.lang.Throwable
+	at thermos.TLog.log(TLog.java:30) [TLog.class:1.7.10-1614.57]
+	at thermos.TLog.warning(TLog.java:41) [TLog.class:1.7.10-1614.57]
+	at thermos.updater.TVersionRetriever.uncaughtException(TVersionRetriever.java:111) [TVersionRetriever.class:1.7.10-1614.57]
+	at thermos.updater.TVersionRetriever.check(TVersionRetriever.java:105) [TVersionRetriever.class:1.7.10-1614.57]
+	at thermos.updater.TVersionRetriever.run(TVersionRetriever.java:69) [TVersionRetriever.class:1.7.10-1614.57]
+	at java.lang.Thread.run(Thread.java:748) [?:1.7.0_221]
+Caused by: org.json.simple.parser.ParseException
+	at org.json.simple.parser.Yylex.yylex(Unknown Source) ~[Yylex.class:?]
+	at org.json.simple.parser.JSONParser.nextToken(Unknown Source) ~[JSONParser.class:?]
+	at org.json.simple.parser.JSONParser.parse(Unknown Source) ~[JSONParser.class:?]
+	at org.json.simple.parser.JSONParser.parse(Unknown Source) ~[JSONParser.class:?]
+	at thermos.updater.TVersionRetriever.check(TVersionRetriever.java:95) ~[TVersionRetriever.class:1.7.10-1614.57]
+	... 2 more

@@ -1,0 +1,91 @@
+groups:
+  Villageois:
+    default: true
+    permissions:
+    - essentials.signs.buy.use
+    - essentials.signs.sell.use
+    - essentials.rules
+    - essentials.online
+    - essentials.list
+    - essentials.warp
+    - iConomy.list
+    - iConomy.payment
+    - iConomy.rank
+    - general.spawn
+    - essentials.spawn
+    - multiverse.tp
+    - essentials.rules
+    - essentials.help
+    - essentials.online
+    - essentials.helpop
+    - essentials.motd
+    - essentials.msg
+    - essentials.rules
+    - factions.participate
+    - iConomy.list
+    - iConomy.payment
+    - iConomy.rank
+    - essentials.mail
+    - essentials.mail.send
+    - essentials.me
+    - essentials.home
+    - essentials.home.others
+    - essentials.sethome
+    prefix: '&6'
+  Moderateur:
+    default: false
+    permissions:
+    - essentials.signs.buy.use
+    - essentials.signs.sell.use
+    - essentials.rules
+    - essentials.online
+    - essentials.list
+    - essentials.warp
+    - iConomy.list
+    - iConomy.payment
+    - iConomy.rank
+    - general.spawn
+    - essentials.spawn
+    - multiverse.tp
+    - essentials.rules
+    - essentials.help
+    - essentials.online
+    - essentials.helpop
+    - essentials.motd
+    - essentials.msg
+    - essentials.rules
+    - factions.participate
+    - iConomy.list
+    - iConomy.payment
+    - iConomy.rank
+    - essentials.mail
+    - essentials.mail.send
+    - essentials.me
+    - essentials.home
+    - essentials.home.others
+    - essentials.sethome
+    - essentials.ban
+    - essentials.kick
+    - essentials.rules
+    - essentials.kit.tools
+    - essentials.warp
+    - essentials.nick
+    - essentials.save
+    - essentials.warp
+    - essentials.warplist
+    - essentials.whois
+    - essentials.compass
+    - worldguard.god
+    - worldedit.navigation.*
+    prefix: '&d'
+  Admins:
+    default: false
+    permissions:
+    - '*'
+    prefix: '&d'
+  votrepseudoici:
+    group:
+    - Admins
+  MrMax94:
+    group:
+    - Vip

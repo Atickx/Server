@@ -1,0 +1,21 @@
+lastAccountName: Atickx
+timestamps:
+  login: 1562019939402
+  logout: 1562019772469
+  lastteleport: 1561839550451
+ipAddress: 87.65.100.18
+lastlocation:
+  world: world
+  x: 0.9983549705389831
+  y: 53.0
+  z: 3.9443413631048605
+  yaw: 112.499985
+  pitch: -5.7000055
+logoutlocation:
+  world: world
+  x: 1.3234168171496101
+  y: 53.0
+  z: 2.625415863707273
+  yaw: 271.49106
+  pitch: 38.539085
+afk: false

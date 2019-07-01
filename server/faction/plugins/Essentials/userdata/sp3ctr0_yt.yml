@@ -1,0 +1,31 @@
+uuid: 64fc961a-c9ff-3599-8ad4-d6e13dd98ac3
+timestamps:
+  login: 1562020087917
+  lastteleport: 1562020240820
+  logout: 1561841555867
+ipAddress: 81.56.75.74
+money: '999899.0'
+lastlocation:
+  world: world
+  x: -19.20892642353969
+  y: 63.0
+  z: -0.4352440693929599
+  yaw: -23.818848
+  pitch: 17.34644
+logoutlocation:
+  world: world
+  x: -250.05075484010194
+  y: 68.10408037809304
+  z: 59.44047161528233
+  yaw: -109.62744
+  pitch: 8.418337
+homes:
+  s:
+    world: world
+    x: 1.4097747338006732
+    y: 69.875
+    z: 1.173012089858062
+    yaw: 184.28719
+    pitch: -11.415029
+godmode: false
+nickname: §4Sp3ctr0_YT

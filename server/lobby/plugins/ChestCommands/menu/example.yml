@@ -1,0 +1,65 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # REQUIRED
+  # Appears as the title of the menu.
+  name: '&1Menu de Teleportation'
+
+  # REQUIRED
+  # The number of rows in the menu.
+  rows: 3
+
+  # OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'menu'
+
+  # OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 4
+
+  # OPTIONAL
+  # This command command will be executed when the menu is opened.
+  # Supports all the icon command types.
+  open-action: ''
+
+  # OPTIONAL
+  # The menu will open only when right-clicking with a compass.
+  open-with-item:
+    id: compass
+    left-click: false
+    right-click: true
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+spawncmd:
+  COMMAND: 'server faction'
+  NAME: 'Faction'
+  LORE:
+    - 'Ca vas te tp au Faction'
+  ID: 4137
+  POSITION-X: 3
+  POSITION-Y: 2
+
+
+
+
+menu-close-no-commands-no-lore:
+  NAME: '&6Close the menu'
+  ID: redstone lamp
+  LORE:
+    - 'Create an item without command,'
+    - 'the GUI will just close.'
+  POSITION-X: 5
+  POSITION-Y: 3

@@ -1,0 +1,18 @@
+
+First Item:
+  name: '&eNavigateur Menu'
+  id: 345
+  slot: 5
+  data-value: 0
+  lore:
+    - '&7This item contains all the existing config nodes.'
+    - '&7Open items.yml to see it.'
+  command: 'menu'
+  permission: 'customjoinitems.menu'
+  cooldown-seconds: 5
+  give-at-respawn: true
+  first-join-only: false
+  allow-drop: false
+  block-movement: false
+  disabled-worlds: world_nether, world_the_end
+  give-on-world-change: true

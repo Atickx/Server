@@ -1,0 +1,52 @@
+PlayerLastName: _Zepek
+EnderChestSize: 54
+EnderChestInventory:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    type: NEXUS_BOOTS_ORAX
+    damage: 510
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DURABILITY: 10
+        PROTECTION_ENVIRONMENTAL: 10
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    type: NEXUS_PANTS_ORAX
+    damage: 969
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DURABILITY: 10
+        PROTECTION_ENVIRONMENTAL: 10
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    type: NEXUS_CHESTPLATE_ORAX
+    damage: 1307
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DURABILITY: 10
+        PROTECTION_ENVIRONMENTAL: 10
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    type: NEXUS_HELMET_ORAX
+    damage: 487
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DURABILITY: 10
+        PROTECTION_ENVIRONMENTAL: 10
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    type: NEXUS_ORAX_SWORD
+    damage: 402
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DAMAGE_ALL: 3

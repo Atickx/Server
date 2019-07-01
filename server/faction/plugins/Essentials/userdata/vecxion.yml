@@ -1,0 +1,25 @@
+afk: false
+logoutlocation:
+  world: world
+  x: 41.38422077776864
+  y: 4.0
+  z: 217.5097896651151
+  yaw: 98.52124
+  pitch: 32.501698
+timestamps:
+  logout: 1418219397820
+  login: 1418220410191
+  kits:
+    chevalier: 1418154496620
+    guerrier: 1418154034863
+    roi: 1418154565926
+uuid: 6bc8964a-3048-3774-92e2-060ed1f0ce3e
+ipAddress: 81.250.207.248
+homes:
+  conf:
+    world: Vec
+    x: 12.751085616588975
+    y: 4.0
+    z: 232.41459029542963
+    yaw: 182.5041
+    pitch: 26.033726
